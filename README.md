@@ -18,3 +18,4 @@ Profiling
 * clang
 * valgrind
 * [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
+* Google Perf Tools

@@ -16,11 +16,11 @@ RUN apt-get update
 # Build tools
 RUN apt install -y --no-install-recommends git cmake yasm make libssl-dev ccache ninja-build binutils-gold
 
-# Analysis / Profiling tools
-RUN apt install -y --no-install-recommends cppcheck valgrind
-
 # LLVM suite
 RUN apt install -y --no-install-recommends clang clang-format clang-tidy lldb lld clangd
+
+# Analysis / Profiling tools
+RUN apt install -y --no-install-recommends cppcheck valgrind google-perftools
 
 # Setup ccache
 RUN mkdir /usr/lib/ccache/bin && \
