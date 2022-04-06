@@ -1,6 +1,6 @@
 # Dockerfile for steschu/stretch-cdebug
 
-This Docker image is intended to be used for C/C++ based projects that use CMake/Ninja for building. It includes the LLVM v10 toolchain as well as tools for static code analysis and profiling.
+This Docker image is intended to be used for C/C++ based projects that use CMake/Ninja for building. It includes the LLVM v14 toolchain as well as tools for static code analysis and profiling.
 
 Items included:
 
